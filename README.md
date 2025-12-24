@@ -1,1 +1,1 @@
-# guidedataplus
+tudent Content: Kept the student guide content on the main page but hidden by default, revealing it smoothly when selected.
