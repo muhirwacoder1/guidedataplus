@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dataplus Guides - Learning Platform</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@500;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="bg-glow"></div>
+
+    <nav>
+        <div class="logo-container">
+            <img src="dataplus logggg.jpg" alt="Dataplus Logo" class="logo-img">
+            <span class="logo-text">Dataplus</span>
+        </div>
+    </nav>
+
+    <main class="guide-wrapper">
+        <header class="guide-header">
+            <h1>Dataplus Learning Platform</h1>
+            <p style="color: var(--text-muted); font-size: 1.1rem; margin-top: 1rem;">Select your dashboard to view the
+                appropriate guide</p>
+        </header>
+
+        <!-- Dashboard Chooser -->
+        <div class="dashboard-chooser">
+            <div class="chooser-card" onclick="showStudentGuide()">
+                <i class="fa-solid fa-user-graduate"></i>
+                <h3>Student Guide</h3>
+                <p>Learn how to access courses, submit assignments, and view grades.</p>
+            </div>
+
+            <div class="chooser-card" onclick="showPasswordModal()">
+                <i class="fa-solid fa-chalkboard-user"></i>
+                <h3>Teacher Guide</h3>
+                <p>Manage courses, view students, and grading.</p>
+            </div>
+        </div>
+
+        <div id="student-content" class="guide-content hidden">
+            <div class="guide-header" style="border-bottom: 0; margin-bottom: 2rem; padding-bottom: 0;">
+                <h2>Student Dashboard Guide</h2>
+                <div class="guide-meta" style="margin-top: 1rem;">
+                    <div><b>Date:</b> Dec 24, 2025</div>
+                    <div><b>Author:</b> Muhirwa Alex</div>
+                </div>
+            </div>
+
+            <h2><a href="https://dataplusems.netlify.app/"># DataPlus - Learning Platform Guidance</a></h2>
+
+            <div>
+                <h3>1. Click on Login</h3>
+                <p>If you have an account, click on Login. If not, Sign up to create an account.</p>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/3d97b96d-4c42-4fb3-8e12-66fd3e8cee3e/76d93c90-20da-41a5-b0ce-4d5173550e65.png"
+                    alt="Click on Login">
+            </div>
+
+            <div>
+                <h3>2. Click on Sign in with Google</h3>
+                <p>You have the option to sign in with Google or sign up with email and password. You can also change
+                    the language if you don't understand English or French.</p>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/aabc1b67-847c-4f3d-889a-6e5aa5df17b2/0c9ad538-79d5-490d-81c7-1397e8184500.png"
+                    alt="Click on Sign in with Google">
+            </div>
+
+            <div>
+                <h3>3. Click on Email</h3>
+                <p>You can also log in (Sign in) with email and password.</p>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/f93ff490-9d52-4581-bb52-fb8fd147a265/c787f6a0-4d2f-4c7f-a13b-c4a236a22449.png"
+                    alt="Click on Email">
+            </div>
+
+            <h2><a href="https://dataplusems.netlify.app/auth"># DataPlus - Learning Platform</a></h2>
+
+            <div>
+                <h3>4. Click on Sign Up</h3>
+                <p>If this is your first time, you can create an account.</p>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/d1576a45-4f38-4f04-a183-7396c520dd5f/3d02b88d-a8b6-4c8c-829c-5e06f9c09ece.png"
+                    alt="Click on Sign Up">
+            </div>
+
+            <div>
+                <h3>5. Click on Student</h3>
+                <p>If you are a student, click on the student option. If you are a teacher, click on the teacher option.
+                </p>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/2b3544c7-2677-4bf7-9dd1-c14c265ae164/0a1986ab-4a4e-45c6-a19a-689249785ec6.png"
+                    alt="Click on Student">
+            </div>
+
+            <div>
+                <h3>6. Click on Create Account</h3>
+                <p>After selecting if you are a student or teacher, choose to sign in with Google or using email. Enter
+                    your details and click on create account.</p>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/c32dd21b-d5fc-4c80-9fc8-3a26941eb011/acd16221-3fd7-4e33-afd9-4d3bf4451c3a.png"
+                    alt="Click on Create Account">
+            </div>
+
+            <div>
+                <h3>7. Click on Sign up with Google</h3>
+                <p>This shows create account using Google. It works the same as the student option.</p>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/74ba9bef-c886-4ad7-965e-46acbf50fe5d/81ec5dcb-2230-4e59-b0e2-5e83e0c74c84.png"
+                    alt="Click on Sign up with Google">
+            </div>
+
+            <h2><a href="#"># Sign in - Google Accounts</a></h2>
+
+            <div>
+                <h3>8. Click on your account</h3>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/7948d421-ea12-4693-8693-d10e2ee48088/39e0ba82-b9eb-4d52-9a4e-0e4c865d2d58.png"
+                    alt="Click on your account">
+            </div>
+
+            <div>
+                <h3>9. Click on Continue</h3>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/e255d5ef-13c7-46d1-b3db-d38a2d324376/3cc05893-d98a-4b35-bdeb-6e32db67eac3.png"
+                    alt="Click on Continue">
+            </div>
+
+            <h2><a href="#"># DataPlus - Learning Platform</a></h2>
+
+            <div>
+                <h3>10. Onboarding section </h3>
+                <p>Step one: enter your name. After that, enter your mobile phone number.</p>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/3639c803-4704-411c-9cdd-3e3bb64790eb/2e72e906-6c77-4026-ad5e-3a1317db4de2.png"
+                    alt="Onboarding section ">
+            </div>
+
+            <div>
+                <h3>11. Click on Avatar 7</h3>
+                <p>Choose the avatar you want for your profile.</p>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/e3060eb5-f881-4bce-9c1e-fe244a673ab0/8f3f8b34-b0f0-4985-adb1-26562c4338e7.png"
+                    alt="Click on Avatar 7">
+            </div>
+
+            <div>
+                <h3>12. Click on Next</h3>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/72994966-f7ae-44ae-83d1-f2bb9a3b0de4/43222a3d-fe66-4bcd-8add-4a50a2042d3a.png"
+                    alt="Click on Next">
+            </div>
+
+            <div>
+                <h3>13. Onboarding step 2</h3>
+                <p>Enter your organization name (where you work), what industry your business operates in, and your role
+                    in the organization.</p>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/fc6383d0-ac18-4ee6-814e-2a057c0e8d70/eb139c24-b6be-49f6-9041-ae149695e137.png"
+                    alt="Onboarding step 2">
+            </div>
+
+            <div>
+                <h3>14. Click on Select industry</h3>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/12023b40-1292-44c8-ade0-0df182d1994e/72261c5a-13f5-4d12-977d-3f860537032e.png"
+                    alt="Click on Select industry">
+            </div>
+
+            <div>
+                <h3>15. Click on Education</h3>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/9b820589-6ac8-4c70-82a5-ebe237a1e96b/0a12eeed-d812-49f6-874f-70794e9fc655.png"
+                    alt="Click on Education">
+            </div>
+
+            <div>
+                <h3>16. Type "student"</h3>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/10f0b4c5-bdf8-40f6-a16d-16ed580f9f71/61c436e2-c265-4174-85dd-48a5484d88f8.png"
+                    alt="Type &quot;student&quot;">
+            </div>
+
+            <div>
+                <h3>17. After filling, click next </h3>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/36d1ab78-6deb-4590-8338-794c31d5f5a6/b4b153d9-c5d5-4f4d-9c81-6d8efac721e4.png"
+                    alt="After filling, click next ">
+            </div>
+
+            <div>
+                <h3>18. Click on Tax</h3>
+                <p>Area of interest (what you like to learn)</p>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/b35bf667-4a73-4458-8533-52142ad36b17/2d9d598e-2df9-447a-9473-a28b4012efc2.png"
+                    alt="Click on Tax">
+            </div>
+
+            <div>
+                <h3>19. Click on any option</h3>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/81ea045b-8559-49a1-9a61-fd5fac57f99c/1c9f66ca-898f-430e-a314-6523203d7a4d.png"
+                    alt="Click on any option">
+            </div>
+
+            <div>
+                <h3>20. Click on Complete</h3>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/aede683b-3dd7-4ab2-80f5-4dffb9ce102d/85a13506-012c-4ae0-aa4c-6b4f5bc0b46b.png"
+                    alt="Click on Complete">
+            </div>
+
+            <div>
+                <h3>21. Click on Dashboard</h3>
+                <p>This is what students see when they reach the dashboard. It has 9 main sections that we are going to
+                    explore:<br>1. Dashboard: This is where you will see your course, scheduled online class, summary of
+                    quizzes you have enrolled in, search for course, notification.</p>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/915fd896-258d-44c0-a2f1-4fd758f552b0/e2a450ea-e74c-4296-859b-63920e63bba9.png"
+                    alt="Click on Dashboard">
+            </div>
+
+            <div>
+                <h3>22. You can choose language </h3>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/599d479a-4e0b-4394-ba44-177a48f08b45/9e5426ba-778b-4f32-b43b-d654c67d99ce.png"
+                    alt="You can choose language ">
+            </div>
+
+            <h2><a href="https://dataplusems.netlify.app/student/dashboard"># DataPlus - Learning Platform</a></h2>
+
+            <div>
+                <h3>23. Click on Search to see courses</h3>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/f11798ff-ff83-4cfb-84d2-c1c2b3712764/9dc39b5c-3214-47a1-8383-631ed85e2e58.png"
+                    alt="Click on Search to see courses">
+            </div>
+
+            <div>
+                <h3>24. On notification icon</h3>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/47cb4163-0006-4c06-bad4-000adfce7351/5f4a3fba-5b48-4032-8163-db11487e8cc6.png"
+                    alt="On notification icon">
+            </div>
+
+            <div>
+                <h3>25. Notification</h3>
+                <p>You can see notifications from teachers of courses you are enrolled in, cohort notifications of the
+                    cohort you joined, and notifications from admin of EMS.</p>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/ce4dc078-2e6f-442b-8f7e-00022ebf9e0e/ef1044d0-4284-4f38-8688-8e5b25ab3b0f.png"
+                    alt="Notification">
+            </div>
+
+            <div>
+                <h3>26. This is where you see courses you are enrolled in</h3>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/310e0845-c99d-491b-be8d-a6aa4c9a5e89/3fd4da30-8dc7-42d1-b0a1-a1b08ad6f32e.png"
+                    alt="This is where you see courses you are enrolled in">
+            </div>
+
+            <div>
+                <h3>27. My Quiz</h3>
+                <p>This shows a summary of quizzes you have taken including (course name, attempted time, marks, and
+                    more)</p>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/d2bc8922-f10b-464b-be4c-ad395ddac775/4a85455e-098f-4a65-b141-590db5486041.png"
+                    alt="My Quiz">
+            </div>
+
+            <div>
+                <h3>28. Click on Toggle Sidebar to collapse it </h3>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/2802007d-b980-4876-94bd-31235df4cb3b/ae6d4cc3-9755-4cc6-8bb0-647996bb65f5.png"
+                    alt="Click on Toggle Sidebar to collapse it ">
+            </div>
+
+            <div>
+                <h3>29. Click on Browse Courses</h3>
+                <p>If you haven't enrolled in any course.</p>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/32df1625-b451-4b90-b463-cb99194c1fbd/25a31682-3979-4b66-90fe-b9a0747bdf9b.png"
+                    alt="Click on Browse Courses">
+            </div>
+
+            <div>
+                <h3>30. View all courses </h3>
+                <p>And see their requirements. If you are interested, enroll in.</p>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/1f3bb52d-f13b-49fd-83e0-ef43138bd9c7/30e94be1-c8f0-41be-b002-1a13e63ed272.png"
+                    alt="View all courses ">
+            </div>
+
+            <div>
+                <h3>31. Click on Enroll Now</h3>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/414266b9-1d01-42a1-acaf-7e0b3a6adbf3/b4469872-e2a9-4330-999a-e450917454f7.png"
+                    alt="Click on Enroll Now">
+            </div>
+
+            <div>
+                <h3>32. When you enroll, this is how the course looks</h3>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/5206bdc6-b986-49e6-ba4c-194c4b276f97/d7a3f1b8-456c-4e2b-83f2-81584d38abe9.png"
+                    alt="When you enroll, this is how the course looks">
+            </div>
+
+            <div>
+                <h3>33. If the course contains an assignment, you will see it here</h3>
+                <p>Caution: Don't submit the assignment when you have reached that assignment. This shows that the
+                    course contains an assignment and you can submit it if you reach it.</p>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/7a492733-8732-440f-a857-eba86063ab60/57b61ec2-a808-46df-ad14-f6caa5f0ce68.png"
+                    alt="If the course contains an assignment, you will see it here">
+            </div>
+
+            <div>
+                <h3>34. This is the content in the course </h3>
+                <p>If it is a video, pdf, assignment, or quiz, you can see it there. Also, you can track your progress
+                    in the course.</p>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/102557d4-b1ba-4e5f-b0f6-9e295f827932/18604916-73ce-42ab-82af-b471f8d404b5.png"
+                    alt="This is the content in the course ">
+            </div>
+
+            <div>
+                <h3>35. Mark Complete</h3>
+                <p>After you finish the video, pdf, or doc, it is important to mark it as done so you can get a
+                    certificate at the end and track your progress.</p>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/b2e14536-5327-4e14-8192-d393d1528939/dea48122-fe09-456f-a674-9dd53de4ff02.png"
+                    alt="Mark Complete">
+            </div>
+
+            <div>
+                <h3>36. After Mark as Complete </h3>
+                <p>After you will be automatically get into the next content and it will also track and show you your
+                    progress.</p>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/2123cb20-2caf-46db-bd8d-3e93906bb96c/dc9ed524-d2ca-45ec-8895-739caabf47b3.png"
+                    alt="After Mark as Complete ">
+            </div>
+
+            <div>
+                <h3>37. Click on quiz </h3>
+                <p>You can take the quiz on the course you are enrolled in.</p>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/cf5b0782-ea31-47c7-9cb7-e7a322cb3fec/24c3b54f-a421-4cc6-8586-1814126f7562.png"
+                    alt="Click on quiz ">
+            </div>
+
+            <div>
+                <h3>38. Do your quiz</h3>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/30606e16-9c82-422d-85a9-97fb6563c838/73e0c56a-556d-4c26-8293-00dccf61c3c6.png"
+                    alt="Do your quiz">
+            </div>
+
+            <div>
+                <h3>39. After Submit Quiz</h3>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/ac9a7c15-3260-47db-96be-6f8b756e2c3a/2c81d92c-208e-4e31-bdc9-9eb7dc3dd588.png"
+                    alt="After Submit Quiz">
+            </div>
+
+            <div>
+                <h3>40. Schedule section</h3>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/fcb4404e-24b9-4049-bb5b-7475063d4029/41db251c-ceed-40e6-9846-e248d3d8adcf.png"
+                    alt="Schedule section">
+            </div>
+
+            <div>
+                <h3>41. Where you will see upcoming class, calendar that marks red on the date you have online class
+                </h3>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/ba1a310a-225e-4102-b524-7fdc539285cc/d490f5cd-af79-4af8-9c94-ceb3d9cd3d90.png"
+                    alt="Where you will see upcoming class, calendar that marks red on the date you have online class">
+            </div>
+
+            <div>
+                <h3>42. Chat Group section </h3>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/a8183173-2cd6-4735-8c0c-4985321da0bd/61561cf4-631d-4108-81b9-ee0250261200.png"
+                    alt="Chat Group section ">
+            </div>
+
+            <div>
+                <h3>43. Join Group Chat (WhatsApp group) that your teacher has created </h3>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/0c07798d-45ed-430e-bcc2-322d96600e20/e6cd6fad-4175-470d-b670-d536276ccacd.png"
+                    alt="Join Group Chat (WhatsApp group) that your teacher has created ">
+            </div>
+
+            <div>
+                <h3>44. Also, you can chat with your teacher in the course you are enrolled in</h3>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/a9a35a93-f953-47d7-85b7-6c69c9cdb049/368d4470-b712-40a8-b71f-f4b8a93eb2ed.png"
+                    alt="Also, you can chat with your teacher in the course you are enrolled in">
+            </div>
+
+            <div>
+                <h3>45. Message teacher</h3>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/0ec083ff-8cd0-4cd4-bb91-fe8eb04c17e8/855a60c6-e126-4b69-bb83-6df5d219b0d8.png"
+                    alt="Message teacher">
+            </div>
+
+            <div>
+                <h3>46. Click on Assignments</h3>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/0d39479a-370a-42be-94e6-0ac7ddc296ff/fdc561d5-bf40-4023-ba0b-67ee5fb4dd2b.png"
+                    alt="Click on Assignments">
+            </div>
+
+            <div>
+                <h3>47. Click on View Details </h3>
+                <p>This will show your assignments that the teacher uploaded (course, assignment title, if it is pending
+                    or you done it)</p>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/6d0e384b-7b17-47f2-8080-14ec4d632f77/1e5f644f-fd0f-4ac9-bf99-2a68188ed587.png"
+                    alt="Click on View Details ">
+            </div>
+
+            <div>
+                <h3>48. Click on Upload Assignment</h3>
+                <p>After viewing the assignment requirements, click on upload assignment to upload the assignment to be
+                    viewed by the teacher.</p>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/cece98b2-625a-4927-b058-8dd9f39d660c/03d2565c-1451-4414-b103-b46e53f4af1c.png"
+                    alt="Click on Upload Assignment">
+            </div>
+
+            <div>
+                <h3>49. Click on Select a course</h3>
+                <p>Select the course you want to submit the assignment to.</p>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/61e8eb5c-cdd5-4d5a-891d-e7d05ca31fdb/eb5ff2ad-7fbc-47f5-ad7b-0f9ec7f71a6f.png"
+                    alt="Click on Select a course">
+            </div>
+
+            <div>
+                <h3>50. Click on Select an assignment title</h3>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/62b5a36e-57dd-4526-8317-ba052f9f5053/0c66201f-975a-40bc-8de9-97e5b8fcf8b9.png"
+                    alt="Click on Select an assignment title">
+            </div>
+
+            <div>
+                <h3>51. Select assignment assignment</h3>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/d8aff177-0b3e-4543-937a-c7801c7815dd/c176b872-1f94-4a52-9366-f61ae6244876.png"
+                    alt="Select assignment assignment">
+            </div>
+
+            <div>
+                <h3>52. Upload or drag and drop assignments </h3>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/44117f29-cd30-4e7a-b412-220946ba130e/d171ccf3-7c6d-4e83-a2ba-90f25dc2de97.png"
+                    alt="Upload or drag and drop assignments ">
+            </div>
+
+            <div>
+                <h3>53. Add on Remarks (Optional)</h3>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/cdb5820d-12e8-4357-ae02-cfb075d3f8d1/d8f8f671-6730-4b20-b85b-d449efd92bcb.png"
+                    alt="Add on Remarks (Optional)">
+            </div>
+
+            <div>
+                <h3>54. Click on Submit Assignment</h3>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/ac8218a3-085b-43f7-9f8a-d18e5afa7c1d/f6db2951-0276-40df-8c4a-0f47b1c1be57.png"
+                    alt="Click on Submit Assignment">
+            </div>
+
+            <div>
+                <h3>55. On Assignment section</h3>
+                <p>You will see that it is automatically submitted and the date it was submitted on.</p>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/19dda649-2ea0-4e4a-9302-fe75eb9fc34f/498f01a8-02a5-4afe-af28-3603582b49bf.png"
+                    alt="On Assignment section">
+            </div>
+
+            <div>
+                <h3>56. ON Scores section</h3>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/d2d0086e-9507-42a6-99a2-87186412deda/ab6c3a49-ef2c-4051-819d-5559608edccf.png"
+                    alt="ON Scores section">
+            </div>
+
+            <div>
+                <h3>57. Select the course you want to see marks for </h3>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/3402aaa1-71db-41c0-8bf0-310ef0850d25/a76a05f9-62a0-49d1-a8c3-18e4e59b64da.png"
+                    alt="Select the course you want to see marks for ">
+            </div>
+
+            <div>
+                <h3>58. View marks for quizzes and assignments and overall performance</h3>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/89cdbd7f-0019-4e45-bbf4-49584231d963/f59e624a-2a2e-4e20-9c58-eff747997e2e.png"
+                    alt="View marks for quizzes and assignments and overall performance">
+            </div>
+
+            <div>
+                <h3>59. On Certificates Section</h3>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/5d75746e-330a-48cb-ad52-684efd72bf64/6f2ee6d0-b348-4f42-baf5-e93eb9ec8d24.png"
+                    alt="On Certificates Section">
+            </div>
+
+            <div>
+                <h3>60. You will view your certificate here</h3>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/270d29e6-3650-4559-b4fd-59a9cb8f0d02/f7976add-9732-47ce-be2a-4c0b0261e1bf.png"
+                    alt="You will view your certificate here">
+            </div>
+
+            <div>
+                <h3>61. Click on All Courses</h3>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/af407e04-0fe9-446d-be18-b2bb9bce21ee/7b12ab32-417f-4d37-901e-57b8732d4255.png"
+                    alt="Click on All Courses">
+            </div>
+
+            <div>
+                <h3>62. On All course Section you can see all courses available </h3>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/14a7e848-bc27-4160-b4e7-b9998499d556/706fc80a-e2a0-4832-a30e-6088b47260ff.png"
+                    alt="On All course Section you can see all courses available ">
+            </div>
+
+            <div>
+                <h3>63. On My Courses</h3>
+                <p>This contains courses you are enrolled in.</p>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/585fc7cd-0031-47c0-9056-2dd7f452028c/40ae3096-4533-46e4-8afd-1dfbe3a9a194.png"
+                    alt="On My Courses">
+            </div>
+
+            <div>
+                <h3>64. On My course</h3>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/33806c77-30cc-4508-acce-98350f813875/5f55db75-01d7-4631-b6d2-e27f6cc12415.png"
+                    alt="On My course">
+            </div>
+
+            <div>
+                <h3>65. On Setting section</h3>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/d85bb717-bc16-4580-acc9-46d8ad7021b1/8e0ea5ea-add4-4b9f-9acd-670b39038552.png"
+                    alt="On Setting section">
+            </div>
+
+            <div>
+                <h3>66. Change language</h3>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/33255811-5a76-4241-8359-6e5a1d5fa31e/00938e96-d05a-4fc5-bff8-b3633067c7c2.png"
+                    alt="Change language">
+            </div>
+
+            <div>
+                <h3>67. Click on French</h3>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/10968af4-b573-4d2b-89c5-102e4cabf2e4/d640aac9-3469-47aa-a037-1e9403345f15.png"
+                    alt="Click on French">
+            </div>
+
+            <div>
+                <h3>68. Reset your password or read Privacy Policy</h3>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/68c29ac1-edc7-442f-9857-c4927007393a/ee85f97f-e3a5-4214-929a-651b91b9f649.png"
+                    alt="Reset your password or read Privacy Policy">
+            </div>
+
+            <div>
+                <h3>69. Privacy Policy</h3>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/bdf8b524-622b-42db-99d7-69f88b8c2885/a9ca2e23-d32e-4ade-9b79-d95b2977e626.png"
+                    alt="Privacy Policy">
+            </div>
+
+            <div>
+                <h3>70. Sign Out Option this will delete your account permanently</h3>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/339213b0-68b3-4cb7-ad15-57b302302a71/ab85b269-bf5b-4159-90ca-f07b805dcbed.png"
+                    alt="Sign Out Option this will delete your account permanently">
+            </div>
+
+            <div>
+                <h3>71. Change Language to French</h3>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/8ae3731a-2a3d-4a7b-83eb-e4fdefefefc7/6593ba60-aba3-4f66-a495-2b7627425354.png"
+                    alt="Change Language to French">
+            </div>
+
+            <div>
+                <h3>72. On Subscription section</h3>
+                <p>This is coming soon</p>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/c50cdc27-2d60-479f-9d1c-0b618fc4964b/b98d9028-5a65-40e9-8b0d-fa3f5b128faf.png"
+                    alt="On Subscription section">
+            </div>
+
+            <div>
+                <h3>73. This is coming soon</h3>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/b21f39ed-65cb-41ab-a4a4-a3f96b6f9ea4/aabf8cd7-1cb4-4328-82a4-d53fde5ca41f.png"
+                    alt="This is coming soon">
+            </div>
+
+            <div>
+                <h3>74. My Quiz Scores…</h3>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/195aba67-3fe6-4e6c-99c5-7ff83be1b9a7/097d8e79-459b-4053-9afa-4cf45725a57d.png"
+                    alt="My Quiz Scores…">
+            </div>
+
+            <div>
+                <h3>75. Export your marks CSV (excel, google sheet)</h3>
+                <img src="https://images.tango.us/workflows/829dc2d4-22c4-4571-90c3-bb33269ca0c8/steps/f563a533-8d1d-4b7c-964c-262c39dba034/1befe337-8aa0-4c0a-b3cd-abe06db5e9dd.png"
+                    alt="Export your marks CSV (excel, google sheet)">
+            </div>
+
+            <hr />
+            <div class="attribution">
+                <span>Created with </span><a
+                    href="https://tango.ai?utm_source=magicCopy&utm_medium=magicCopy&utm_campaign=workflow%20export%20links"
+                    target='_blank'>Tango.ai</a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Password Modal -->
+    <div id="modal-overlay" class="modal-overlay">
+        <div class="modal">
+            <h2>Teacher Access</h2>
+            <p>Please enter the access code to view the Teacher Guide.</p>
+            <input type="password" id="access-code" class="modal-input" placeholder="Enter Code" maxlength="4">
+            <div class="error-msg" id="error-msg">Incorrect access code</div>
+            <div class="modal-buttons">
+                <button class="btn btn-secondary" onclick="closeModal()">Cancel</button>
+                <button class="btn btn-primary" onclick="checkPassword()">Access</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 DataPlus. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
