@@ -11,6 +11,17 @@
     --font-body: 'Inter', sans-serif;
 }
 
+[data-theme="light"] {
+    --bg-color: #f8fafc;
+    --card-bg: #ffffff;
+    --card-border: #e2e8f0;
+    --primary: #4f46e5;
+    --primary-glow: #4f46e540;
+    --secondary: #059669;
+    --text-main: #0f172a;
+    --text-muted: #64748b;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -374,4 +385,38 @@ footer {
         flex-direction: column;
         align-items: center;
     }
+}
+
+/* Theme Toggle Button */
+.theme-toggle {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    z-index: 10000;
+}
+
+.theme-toggle:hover {
+    transform: translateY(-3px);
+    border-color: var(--primary);
+}
+
+.theme-toggle i {
+    font-size: 1.5rem;
+    color: var(--text-main);
+    transition: transform 0.5s ease;
+}
+
+[data-theme="light"] .theme-toggle i {
+    transform: rotate(180deg);
 }
